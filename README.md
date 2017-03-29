@@ -6,3 +6,7 @@ Collaborators please follow these protocols:
 2. Always pull/sync with this repo's dev branch.
 3. Always send pull request to this repo's dev branch
 4. We will update master branch regularly or at milestone
+
+Pull Requests:
+1. Please add reviewers and don't merge by yourself. ;)
+2. Please use option 'Rebase and commit' instead of 'Merge', except changes from dev branch into master.
