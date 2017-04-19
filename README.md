@@ -22,3 +22,16 @@ Pull Requests:
 * ssh to vm using 'vagrant ssh'
 * Run 'cd /webroot && npm start'
 * Go to localhost:3000 on your pc
+
+## Using nodemon to help development
+* What is nodemon?
+  nodemon is a utility tool that monitors you application files with changes and automatically restarts the
+  app when the file is changed. Similar to webpack we use at work. With nodemon, you don't need to run
+  npm start everytime you make a change
+* How to install?
+  - Make sure you have npm installed first (type: 'npm -v' to check)
+  - Type 'npm install -g nodemon'
+* How to start using?
+  - Go to application folder, then cd/webroon (where package.json is), then run 'nodemon'
+  - Go to localhost:3000 on your pc
+  - Make a change locally and notice nodemon auto restarts
