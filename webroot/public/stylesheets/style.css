@@ -1,8 +1,30 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+html, body,
+.ng-scope {
+    width: 100%;
+    height: 100%;
 }
 
-a {
-  color: #00B7FF;
+/* Login page style classes */
+.loginPage {
+    width: 100%;
+    height: 100%;
+}
+
+.loginPageTitle {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.loginPagePromptForm {
+    margin: auto;
+    width: 350px;
+}
+
+.loginPagePromptForm > .form-group {
+    display: flex;
+}
+
+.loginPagePromptInput {
+    margin-right: auto;
+    width: 250px;
 }
