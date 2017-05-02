@@ -1,10 +1,10 @@
 <div class="loginPage">
     <h1 class="loginPageTitle"> {{vm.title}} </h1>
-    <form class="loginPagePromptForm">
+    <form class="loginPagePromptForm" ng-submit="vm.submitNickname()">
         <p class="loginPagePromptText"> {{vm.promptText}} </p>
         <div class="form-group">
-            <input type="text" class="form-control loginPagePromptInput" placeholder="Nickname">
-            <button class="btn btn-default"> {{vm.confirmButtonText}} </button>
-        </div>         
+            <input type="text" class="form-control loginPagePromptInput" placeholder="Nickname" ng-model="vm.nickname"/>
+            <button class="btn btn-default" type="submit"> {{vm.confirmButtonText}} </button>
+        </div>
     </form>
 </div>
