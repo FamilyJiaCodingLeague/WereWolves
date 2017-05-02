@@ -35,3 +35,8 @@ Pull Requests:
   - Go to application folder, then cd/webroon (where package.json is), then run 'nodemon'
   - Go to localhost:3000 on your pc
   - Make a change locally and notice nodemon auto restarts
+
+## RESTful API:
+GET     /                       login
+POST    /login                  Login with as a new user
+GET     /rooms                  Get all/multiple rooms
