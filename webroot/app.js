@@ -1,3 +1,6 @@
+// Connect to mongoDB
+require('./api/data/db.js');
+
 var express = require('express');
 var path = require('path');
 var favicon = require('serve-favicon');
